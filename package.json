@@ -7,12 +7,6 @@
   },
   "description": "",
   "main": "src/server.js",
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^5.5.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0"
-  },
   "scripts": {
     "start": "node ./src/server.js",
     "pretest": "eslint ./src --fix",
@@ -27,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/BenThorn/streaming-media-assignment/issues"
   },
-  "homepage": "https://github.com/BenThorn/streaming-media-assignment#readme"
+  "homepage": "https://github.com/BenThorn/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
 }
