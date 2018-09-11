@@ -62,7 +62,7 @@ const getBling = (request, response) => {
 
 const getBird = (request, response) => {
   loadFile(request, response, '../client/bird.mp4', 'video/mp4');
-}
+};
 
 
 module.exports.getParty = getParty;
